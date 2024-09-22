@@ -30,3 +30,8 @@ run server
 prometheus --config.file=prometheus.yaml
 ```
 
+## Grafana
+
+```
+docker compose up -d
+```
