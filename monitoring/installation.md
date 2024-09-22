@@ -1,3 +1,7 @@
+run commands under 'monitoring' dir
+
+## Prometheus
+
 on prometheus server
 
 ```sh
@@ -14,5 +18,15 @@ gh release download v1.8.2 --repo prometheus/node_exporter --pattern '*linux-arm
 tar -xvf node_exporter-*linux-arm64.tar.gz
 mv node_exporter-*.linux-arm64/node_exporter ~/.local/bin
 rm -rf node_exporter-*
+```
+
+run exporters
+```
+node_exporter
+```
+
+run server
+```
+prometheus --config.file=prometheus.yaml
 ```
 
