@@ -1,8 +1,9 @@
 ## requirements
 
 install `kubectl` for each machine
-install `helm` for server(control plane) and workstation
+install `helm` for server(control plane)
 install `k9s` for workstation
+install `tailscale` for server
 
 ## k3s
 
