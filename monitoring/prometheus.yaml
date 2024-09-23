@@ -29,5 +29,5 @@ scrape_configs:
       - targets: ["localhost:9090"]
 
   - job_name: rpi_machines
-    static_configs:
+    static_configs: # IP address may differ
       - targets: ["192.168.1.10:9100", "192.168.1.11:9100"]
