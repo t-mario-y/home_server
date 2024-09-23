@@ -2,7 +2,7 @@ run commands under 'monitoring' dir
 
 ## Prometheus
 
-on prometheus server
+on server machine
 
 ```sh
 gh release download v2.54.1 --repo prometheus/prometheus --pattern '*linux-amd64*'
@@ -32,6 +32,8 @@ prometheus --config.file=prometheus.yaml
 
 ## Grafana
 
-```
+on server machine
+
+```sh
 docker compose up -d
 ```
