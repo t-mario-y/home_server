@@ -11,4 +11,4 @@ docker run -p 8000:8000 remo_sensors:latest
 
 ```
 
-push image to ECR
+push image to ECR: follow by web console

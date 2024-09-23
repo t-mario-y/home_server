@@ -35,3 +35,17 @@ curl -sfL https://get.k3s.io | K3S_URL=https://$SERVER_IP:6443 K3S_TOKEN=$K3S_TO
 <https://ranchermanager.docs.rancher.com/v2.6/getting-started/quick-start-guides/deploy-rancher-manager/helm-cli>
 
 Then access <https://$AGENT_MACHINE_IP.sslip.io/dashboard/home>
+
+## Tailscale Funnel
+
+<https://tailscale.com/kb/1223/funnel>
+
+```sh
+tailscale funnel (PortNumber)
+```
+
+## Usage
+
+deploy k8s resource with kubectl
+view and edit on Rancher web console
+...
