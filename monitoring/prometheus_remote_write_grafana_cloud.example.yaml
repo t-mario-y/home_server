@@ -1,0 +1,8 @@
+# - copy this template file
+# - create connection on Grafana Cloud
+# - set Prometheus remote_write config
+remote_write:
+  - url: GRAFANA_CLOUD_URL
+    basic_auth:
+      username: USER_NAME
+      password: PASSWORD

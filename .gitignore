@@ -1,2 +1,3 @@
 /monitoring/data
 .vscode
+monitoring/prometheus_remote_write_grafana_cloud.yaml
