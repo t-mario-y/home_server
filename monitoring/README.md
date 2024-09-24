@@ -12,8 +12,4 @@ prometheus --config.file=prometheus.yaml
 
 ## Grafana
 
-on server machine
-
-```sh
-docker compose up -d
-```
+Grafana cloud can integrate with local prometheus server by remote_write. Add connection on web console with "Hosted Prometheus metrics".
