@@ -25,8 +25,8 @@ scrape_configs:
     # scheme defaults to 'http'.
 
     static_configs:
-      - targets: ["localhost:9090"]
+      - targets: ['localhost:9090']
 
   - job_name: rpi_machines
     static_configs:
-      - targets: ["192.168.1.10:9100", "192.168.1.11:9100"]
+      - targets: ['192.168.1.10:9100', '192.168.1.11:9100']

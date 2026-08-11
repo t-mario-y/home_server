@@ -28,7 +28,7 @@ metadata:
   namespace: app
 spec:
   ports:
-    - name: "whoami"
+    - name: 'whoami'
       port: 18080
       protocol: TCP
       targetPort: 80
